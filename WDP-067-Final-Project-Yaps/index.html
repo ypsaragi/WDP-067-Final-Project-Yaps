@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacktiv8 Food</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navbar -->
+    <header class="bg-dark fixed-top">
+      <nav class="container-xxl navbar navbar-expand-lg py-3 bg-dark navbar-dark">
+        <div class="container-fluid">
+          <img src="images/hacktiv8food-bg.jpg" width="175" height="50" class="navbar-brand fw-bold fs-3" alt="Jedakala">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>  
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="todos.html">ToDos</a>
+              </li>
+            </ul>   
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero or Showcase Section -->
+    <section class="hero d-flex flex-column align-items-center justify-content-center">
+      <div class="text-center">
+        <h1 class="h1 text-black fw-medium fst-italic">Hacktiv8 Food</h1>
+        <button type="button" class="btn btn-lg fs-6 fw-medium mt-5 btn-warning p-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now</button>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">Weight Loss Program</th>
+                        <th scope="col">Lunch/Dinner Package<span></span></th>
+                        <th scope="col">Lunch&Dinner Package</span></th>
+                       
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Weekly</th>
+                        <td>IDR 357.000</td>
+                        <td>IDR 609.000</td>
+               
+                      </tr>
+                      <tr>
+                        <th scope="row">Monthly</th>
+                        <td><span>IDR 1.250.000</span></td>
+                        <td><span>IDR 2.162.500</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Promo Package 2 month</th>
+                        <td><span>IDR 2.162.500</span></td>
+                        <td><span>IDR 4.275.000</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"></th>
+                            <td>
+                            <a href="https://www.hacktiv8.com/"><button class="btn btn-primary">Order Now</button></a>
+                            </td>
+                            <td>
+                            <a href="https://www.hacktiv8.com/"><button class="btn btn-primary">Order Now</button></a>
+                            </td>
+                      </tr>
+                    </tbody>
+                  </table>    
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section class="container py-5" id="portfolio">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2>PORTFOLIO</h2>
+          <h5 class="text-secondary fw-normal py-2">A collection of projects we've worked on.</h5>
+        </div>
+        <div class="row mt-5 mx-0 justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-4 col-12 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/website.jpg" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Website Design</h6>
+                <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/digital-ads.jpg" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Digital Ads</h6>
+                <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/company-profile.jpg" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Company Profile</h6>
+                <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/video-production.jpg" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Video Production</h6>
+                <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </section>
+
+    <!-- About Us Section -->
+    <section class="container py-5" id="about">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center">
+          <h2>ABOUT US</h2>
+          <h5 class="text-secondary fw-normal py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+        </div>
+      </div>
+      <div class="row flex-row-reverse flex-md-row mt-5 pt-5">
+        <div class="col-9 col-md-5 text-md-end">
+          <h5>Gregorius Ruben</h5>
+          <h5>Chief Executive Officer</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-3 col-md-2 img text-center">
+          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/Ruben.jpg" alt="img">
+        </div>
+      </div>
+      <div class="row justify-content-md-end mt-5 pt-5">
+        <div class="col-3 col-md-2 img text-center">
+          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/Aldo.jpg" alt="img">
+        </div>
+        <div class="col-9 col-md-5">
+          <h5>Christopher Aldo</h5>
+          <h5>Chief Growth Officer</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      
+    </section>
+        
+    <!-- Blog Section -->
+    <section class="container py-5" id="blog">
+        <div class="row mt-4 py-3">
+          <div class="col-12 d-flex flex-column text-center justify-content-center">
+            <h2>BLOG</h2>
+            <h5 class="text-secondary fw-normal py-2">This is what we're talking about.</h5>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-between mx-0">
+          <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+            <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-book"></i>
+            <h3 class="mt-4 h4">Five social media lessons marketers can learn from The Glory</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="https://www.hacktiv8.com/" class="btn btn-primary">Read</a>
+          </div>
+          <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+            <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-book"></i>
+            <h3 class="mt-4 h4">What Creative Leaders do</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="https://www.hacktiv8.com/" class="btn btn-primary">Read</a>
+          </div>
+        </div>
+      </section>
+
+     <!-- Contact Us Section -->
+     <section class="py-5" id="contact">
+      <div class="container-xxl py-5">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2 class="text-white">CONTACT US</h2>
+          <h5 class="text-white fw-normal py-2">Interested to work together? Contact us and we will respond promptly.</h5>
+        </div>
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column text-center justify-content-center">
+                <h3 class="text-white">Get In Touch</h3>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0231580840864!2d106.77912957380316!3d-6.260679693727906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1a8713ce207%3A0x2c3ea1f4a28bfac5!2sHacktiv8!5e0!3m2!1sid!2sid!4v1686467735365!5m2!1sid!2sid" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="text-white">
+                    <h3>Phone:</h3>
+                    <p>+021 8067 5787</p>
+                    <br>
+                    <h3>E-mail:</h3>
+                    <p>halo@hacktiv8.com</p>
+                </div>
+            </div>
+        </div>
+       </div>
+     </section>
+
+     <!-- Footer -->
+     <footer>
+      <div class="container-xxl flex-wrap pt-3 d-flex align-items-center justify-content-between">
+        <p>Copyright © 2023 Hacktiv8 Food</p>
+        <ul class="social-icons d-flex">
+          <a href="https://www.instagram.com/" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-instagram"></i></small></a>
+          <a href="https://twitter.com/" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-twitter"></i></small></a>
+          <a href="https://id.linkedin.com/" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-linkedin-in"></i></small></a>
+        </ul>
+      </div>
+     </footer>
+    
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
